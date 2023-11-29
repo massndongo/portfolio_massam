@@ -1,0 +1,41 @@
+<nav class="px-2 sm:px-4 py-4 sm:py-5" aria-label="Main navigation">
+  <div class="sm:container-fluid md:container flex flex-wrap justify-between items-center mx-auto">
+    <!-- <span class="w-4 h-4 bg-blue-500"></span> -->
+    <a  class="flex items-center">
+      <span class="lg:w-4 lg:h-4 w-3 h-3 m-3 bg-[#0050ff]"></span>
+      <span class="mr-3 text-black" alt="logo" >
+        <b class="lg:text-title text-[20px]">Massam Ndongo</b>
+      </span>
+      <span class="lg:text-[20px] text-[15px]"> / Développeur Web</span>
+    </a>
+    <button app-hamburger></button>
+    <div app-menu class="md:flex md:order-1 sm:bg-[#f4ece6] lg:bg-transparent">
+      <li>
+        <a routerLink="/accueil" routerLinkActive="active" [routerLinkActiveOptions]="{ exact: true}"
+        class="block py-2 px-4 md:p-0 text-gray-900 hover:text-[#0050ff] md:text-black rounded">À PROPOS DE MOI</a
+        >
+      </li>
+      <li>
+        <a
+          routerLink="/cv" routerLinkActive="active"
+          class="block py-2 px-4 md:p-0 text-gray-900 hover:text-[#0050ff] md:text-black    rounded"
+          >CV</a
+        >
+      </li>
+      <li>
+        <a
+          routerLink="/projets" routerLinkActive="active"
+          class="block py-2 px-4 md:p-0 text-gray-900 hover:text-[#0050ff] md:text-black    rounded"
+          >PROJETS</a
+        >
+      </li>
+      <li>
+        <a
+          routerLink="/contact" routerLinkActive="active"
+          class="block py-2 px-4 md:p-0 text-gray-900 hover:text-[#0050ff] md:text-black    rounded"
+          >CONTACT</a
+        >
+      </li>
+    </div>
+  </div>
+</nav>
