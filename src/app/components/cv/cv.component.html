@@ -1,1 +1,27 @@
-<p>cv works!</p>
+<div class="flex flex-col justify-center items-center w-full bg-marron">
+  <div class="01 flex flex-row justify-center p-[5%]">
+    <span class="lg:w-5 lg:h-5 w-3 h-3 m-3 bg-[#0050ff]"></span>
+    <span class="mr-3 text-black" alt="logo" >
+      <b class="lg:text-title text-[20px]">CV</b>
+    </span>
+  </div>
+  <div class="02 flex flex-row justify-between items-center lg:w-[35%] w-[85%]">
+    <span class="lg:text-[20px] text-[15px] font-bold">Expérience</span>
+    <button (click)="downloadPdf()" class="inline-block  sm:w-auto border-2 bg-bleu text-white hover:text-black hover:border-bleu hover:bg-transparent focus:ring-4 focus:outline-none focus:ring-gray-200 sm:focus:ring-blue-600 text-center px-[10%] py-1 ml-2 font-bold">PROJETS</button>
+  </div>
+  <div class="03 bg-white shadow-2xl p-[2%] flex lg:flex-row flex-col justify-between  lg:w-[35%] w-[85%] lg:mt-[2%]">
+    <div class="flex flex-col justify-center w-[40%] ">
+      <h1 class="lg:text-[20px] font-bold text-bleu">2035-Maintenant</h1>
+      <h2 class="lg:text-[15px] text-[10px] font-bold uppercase lg:mt-2">post occupé</h2>
+      <p class="lg: mt-4">
+        Non de l'entreprise
+        <br>
+        Ville - Pays
+      </p>
+    </div>
+    <div class="flex flex-col justify-center w-[60%] mt-[25%]">
+      <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolores in unde doloremque totam dolorum incidunt vel impedit accusantium doloribus blanditiis aspernatur ad porro sapiente quibusdam veritatis, voluptates cum, consequatur quo?</p>
+      <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. </p>
+    </div>
+  </div>
+</div>

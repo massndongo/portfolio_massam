@@ -23,7 +23,8 @@ module.exports = {
     },
     extend: {
       colors: {
-        'green-design': '#008137',
+        'bleu': '#0050ff',
+        'marron': '#e6dace'
       },
     },
     screens: {
