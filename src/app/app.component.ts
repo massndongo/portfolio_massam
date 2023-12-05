@@ -13,7 +13,7 @@ import { FooterComponent } from './components/footer/footer.component';
       RouterLink,
       RouterLinkActive,
       NavbarComponent,
-      FooterComponent
+      FooterComponent,
     ],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
