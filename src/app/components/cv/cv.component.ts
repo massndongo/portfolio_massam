@@ -6,7 +6,7 @@ import { CommonModule } from '@angular/common';
   standalone: true,
   imports: [CommonModule],
   templateUrl: './cv.component.html',
-  styleUrl: './cv.component.css'
+  styleUrls: ['./cv.component.css']
 })
 export class CvComponent {
 

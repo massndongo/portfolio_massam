@@ -57,10 +57,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "buildTarget": "portfolio_massam:build:production"
+              "browserTarget": "portfolio_massam:build:production"
             },
             "development": {
-              "buildTarget": "portfolio_massam:build:development"
+              "browserTarget": "portfolio_massam:build:development"
             }
           },
           "defaultConfiguration": "development"
@@ -68,7 +68,7 @@
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "buildTarget": "portfolio_massam:build"
+            "browserTarget": "portfolio_massam:build"
           }
         },
         "test": {
